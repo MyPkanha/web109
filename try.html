@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>myblog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css of kanha.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!--bootstrap cdn start-->
+   
+  <!--bootstrap cdn end-->
+</head>
+
+<style type="text/css">
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+  }
+  .mainpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("OIP (1).jpg");
+    background-size: cover;
+  }
+  .myimg{
+    box-shadow:8px 8px 1px black;
+  }
+  .skill{
+    background-color: black;
+  }
+  .bx{
+    background-color: #222222;
+    border: 1px solid white;
+    border-radius: 0px;
+    box-shadow: 5px 5px 1px white;
+  }
+  .photo{
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 1px black;
+    border-radius: 0px; 
+  }
+  .btn{
+    border: 2px solid blue;
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+  }
+  .cbtn{
+    border: 2px solid #0066ff;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    background: #0066ff;
+  }
+  .cbtn:hover{
+    background: rgba(0,25,255,0.5);
+  }
+  /*smooth scroolling css start*/
+  body { 
+  font: 14px/2 Georgia, serif; 
+}
+
+#page-wrap { 
+  max-width: 500px; 
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+
+p, ul, h1 { 
+  margin: 0 0 1rem 0; 
+}
+/*smooth scrolling css end*/
+</style>
+
+<body>
+  <header class="text-gray-700 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl" style="color:white;">Kanha Patil</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <ul style="color:white;">
+        <a class="mr-5 H" href="#Home">Home</a>
+      <a class="mr-5 H" href="#About">About</a>
+      <a class="mr-5 H" href="#Skills">Skills</a>
+      <a class="mr-5 H" href="#Gallery">Gallery</a>
+      </ul>
+    </nav>
+  </div>
+</header><br><br>
+<section class="text-gray-700 body-font mainpage" id="Home">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"><br><br>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color:white;">Hello I'm <br><span style="font-size:1.8em; font-weight:700; color:white;">Kanha Patil</span></h1>
+      <p class="mb-8 leading-relaxed"  style="font-size: 22px; color:white;">I'm A Beginner Front -End-Web-Deweloper.</p>
+
+      <a href="#Contact">
+        <button class="cbtn">Contact</button>
+      </a>
+      <div class="flex lg:flex-row md:flex-col">
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--about us start-->
+<div style="width:100%; height:30px; background-color:white;" id="About"></div>
+<section class="text-gray-700 body-font" >
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" style="padding-top:6%;">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color:black; font-weight:700;">About Me</h1>
+      <h2 style="font-weight:600; font-size:25px;">Something About My Self</h2>
+      <p class="mb-8 leading-relaxed"  style="font-size: 22px; color:black;">
+        <ul>
+          <li><i>Hello I'M Kanha Patil</i></li>
+          <li><i>I'M From Khargone</i></li>
+        <li><i>But Since 2 Years I'M living In Indore, Becouse I'M Pursuing A Graduation From Acropolis Institute Of Technology And Research (Indore).</i></li>
+        <li><i>My Branch Is Dual Degree Master Of Computer Application (DDMCA)</i></li>
+        <li><i>And Now I'M In Second Year</i></li>
+        </ul>
+      </p>
+      <div class="flex lg:flex-row md:flex-col">
+       
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 myimg">
+     <img src="my-img.jpg">
+    </div>
+  </div>
+  <div id="Skills"></div>
+</section>
+<!--about us end-->
+
+<!--skills start-->
+<section class="text-gray-700 body-font skill">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0" style="padding-top:5%;"><br>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900" style="font-size:2.5em; font-weight: 700; color:white;">Skills</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+      <h2 class="lg:w-1/2 w-full leading-relaxed text-base" style="font-weight:700; font-style:italic; color:white;">This is My Skills And All Here My Skills is Based on Web-Dewelopig Skills and I Have Learn This Skills From W3School.Com</h2>
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg bx">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="html-logo.jpg" alt="content">
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4" style="color:white;">HTML & HTML-5</h2>
+          <p class="leading-relaxed text-base" style="color:white;">My Level in HTML :- 80% <br> HTML is Hyper Text Markup Language</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg bx">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="css-logo.jpg" alt="conten">
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4" style="color:white;">CSS & CSS-3 & BootStrap</h2>
+          <p class="leading-relaxed text-base" style="color:white;">My Leve in CSS & BootStrap :- 60% & 90%. CSS :- css is used to Styling of HTML & BootStrap is a FrameWork of CSS</p>
+        </div>
+      </div>
+
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg bx">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="js-logo.jpg" alt="content">
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4" style="color:white;">JavaScript</h2>
+          <p class="leading-relaxed text-base" style="color:white;">My Level In JacaScript :- 20% <br> JavaScript :- JS is a Web Programming language</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg bx">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="python-logo.jpg" alt="content">
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4" style="color:white;">Python</h2>
+          <p class="leading-relaxed text-base" style="color:white;">My Level in Python:- 40% <br> Python :- Python is a High Level Programming Language</p>
+        </div>
+      </div>
+    </div>
+     <div id="Gallery"></div>
+  </div>
+</section>
+<!--skills end-->
+
+<!--gallery start-->
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0" style="padding-top:5%;">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900" style="font-weight:700; font-size:2.4em;">Gallery</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+      <p style="font-size:2em; font-weight:700;">Mamories</p>
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/2 md:w-1/2 p-4">
+        <div class="p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6 photo" src="edit-1.jpg" alt="content">
+        </div>
+      </div>
+
+      <div class="xl:w-1/2 md:w-1/2 p-4">
+        <div class="p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6 photo" src="edit-2.jpg" alt="content">
+        </div>
+      </div>
+
+      <div class="xl:w-1/2 md:w-1/2 p-4">
+        <div class="p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6 photo" src="edit-4.jpg" alt="content">
+        </div>
+      </div>
+
+      <div class="xl:w-1/2 md:w-1/2 p-4">
+        <div class="p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6 photo" src="edit-3.jpg" alt="content">
+        </div>
+      </div>
+    </div>
+    <div style="width:20%; margin:0px auto;">
+    <a href="seemore.html">
+      <button class="btn">See More</button>
+    </a>
+     <div id="Contact"></div>
+  </div>
+  </div>
+</section>
+<!--gallery end-->
+
+<!--contact start-->
+<section style="background-color:black; padding-top:7%;">
+  <div style="width: 80%; margin:0px auto;">
+    <form action="action_page.php"><br>
+      <h1 style="font-size:2.5em; color:white; font-weight:700; text-align:center;">Contact-Us</h1><br>
+      <input type="text" name="name" placeholder="Enter Your Name" style="width:97%; height:50px;"><br><br><input type="text" name="email" placeholder="Enter Your Email" style="width:97%; height:50px;"><br><br>
+      <textarea rows="10" type="message" placeholder="Enter Your Message" style="width:97%;"></textarea><br><br>
+      <div style="width:20%; margin:0px auto;">
+        <input type="submit" name="btn" class="btn" style="background-color:white; color:black; font-size:20px; font-weight:700;">
+      </div>
+    </form><br><br>
+  </div>
+</section>
+<!--contact end-->
+
+<!--footer start-->
+  <footer style="color:gray;">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Kanha Patil</span>
+      </a><br>
+      <p>I'm The Deweloper of This PortFolio Webside</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES-1</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="#">First Link</a>
+          </li>
+          <li>
+            <a href="#">Second Link</a>
+          </li>
+          <li>
+            <a href="#">Third Link</a>
+          </li>
+          <li>
+            <a href="#">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES-2</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="#">First Link</a>
+          </li>
+          <li>
+            <a href="#">Second Link</a>
+          </li>
+          <li>
+            <a href="#">Third Link</a>
+          </li>
+          <li>
+            <a href="#">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES-3</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="#">First Link</a>
+          </li>
+          <li>
+            <a href="#">Second Link</a>
+          </li>
+          <li>
+            <a href="#">Third Link</a>
+          </li>
+          <li>
+            <a href="#">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES-4</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="#">First Link</a>
+          </li>
+          <li>
+            <a href="#">Second Link</a>
+          </li>
+          <li>
+            <a href="#">Third Link</a>
+          </li>
+          <li>
+            <a  href="#">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-200">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 kanhapatil —
+        <a href="mailto:kanhap569@gmail.Com" class="text-gray-600 ml-1" target="_blank">kanhap569@gmail.com</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.instagram.com/invites/contact/?i=4iyxgoodaeav&utm_content=5rjfz3s">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+<!--footer end-->
+
+
+<!--js for smooth scrollins-->
+<script type="text/javascript">
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+</body>
+</html>
+
